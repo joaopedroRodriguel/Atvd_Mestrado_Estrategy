@@ -1,12 +1,13 @@
 package Model;
 
 public enum ExperienciaEnsino {
+    NO_EXPERIENCE(0),
 
-    IFPB(12),
-    SUPERIOR(7),
     MEDIO(6),
-    NO_EXPERIENCE(0);
 
+    SUPERIOR(7),
+
+    IFPB(12);
     private final int valor;
 
     private ExperienciaEnsino(int valor) {

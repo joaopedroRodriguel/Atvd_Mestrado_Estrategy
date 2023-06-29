@@ -14,7 +14,6 @@ public class CalcularScoreFinal implements PontuacaoCalculoEstrategia {
         this.calcularGestaoExperiencia = calcularGestaoExperiencia;
 
     }
-
     @Override
     public double calcularScore(ProfessorCandidato professorCandidato) {
 
